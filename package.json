@@ -1,0 +1,24 @@
+{
+  "name": "skroutz-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "search": "ts-node src/index.ts",
+    "dev": "playwright test scrape-product"
+  },
+  "keywords": [],
+  "author": "Alexandros Tsiouris",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5",
+    "yargs": "^17.7.2"
+  },
+  "dependencies": {
+    "playwright": "^1.43.1",
+    "ts-node": "^10.9.2"
+  }
+}
